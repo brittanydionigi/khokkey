@@ -1,0 +1,2 @@
+FATAL:  lock file "/tmp/.s.PGSQL.5432.lock" already exists
+HINT:  Is another postmaster (PID 21234) using socket file "/tmp/.s.PGSQL.5432"?
