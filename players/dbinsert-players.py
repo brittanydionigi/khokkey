@@ -6,14 +6,16 @@ import inspect
 import pymongo
 from player_stats import get_player_stats
 
+
+# Database setup
 from pymongo import MongoClient
 client = MongoClient()
 
 db = client['players']
-
 players_db = db['players']
 
 
+# Get URLs to scrape
 base_url = "http://www.nhl.com/ice/playersearch.htm?"
 seasons = [20112012,20122013,20132014]
 player_pages = range(1, 22)

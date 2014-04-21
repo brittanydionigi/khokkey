@@ -1,18 +1,20 @@
 from bs4 import BeautifulSoup, Tag
-import re
-import requests
-import itertools
-import inspect
+#import re
+#import requests
+#import itertools
+#import inspect
 import pymongo
 
+
+# Database setup
 from pymongo import MongoClient
 client = MongoClient()
 
 db = client['teams']
-
 teams_table = db['teams']
 
 
+# Teams dictionary
 teams = [
   { "team": "Carolina Hurricanes", "slug": "carolina-panthers", "abbr": "CAR", "location": "Carolina", "mascot": "Hurricanes", "conference": "Eastern", "division": "Metropolitan" },
   { "team": "Columbus Blue Jackets", "slug": "columbus-blue-jackets", "abbr": "CBJ", "location": "Columbus", "mascot": "Blue Jackets", "conference": "Eastern", "division": "Metropolitan" },
