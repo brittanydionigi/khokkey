@@ -80,7 +80,12 @@ def iterate_roster_rows(rows):
 
 
 
-def get_game_rosters(season, gcode, away_team, home_team):
+def get_game_rosters(game_data):
+  season = game_data["season"]
+  gcode = game_data["gcode"]
+  away_team = game_data["away_team"]
+  home_team = game_data["home_team"]
+
   roster_url = "http://www.nhl.com/scores/htmlreports/" + str(season) + "/RO0" + str(gcode) + ".HTM"
   rpu = requests.get(roster_url)
 
@@ -98,7 +103,6 @@ def get_game_rosters(season, gcode, away_team, home_team):
 
     home_rows = roster_table_rows[1].find('table')
     home_rows = home_rows.findAll('tr')
-
 
 
     visitor_roster = iterate_roster_rows(visitor_rows)

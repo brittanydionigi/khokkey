@@ -62,6 +62,11 @@ def get_strength_transitions(teams, events):
 
         strength.append(newStrengthFrame)
 
-  strength[-1].update({"end_time": parseGameTime(game_end) })
+  # If, for some reason, the GEND event is missing, use the last event row
+  # for total_time_expired (happens here: http://www.nhl.com/scores/htmlreports/20072008/PL020015.HTM)
+  if game_end:
+    strength[-1].update({"end_time": parseGameTime(game_end) })
+  else:
+    strength[-1].update({"end_time": parseGameTime(events[-1]["total_time_expired"]) })
 
   return strength

@@ -1,20 +1,18 @@
 from bs4 import BeautifulSoup, Tag
-#import re
-#import requests
-#import itertools
-#import inspect
+import re
+import requests
+import itertools
+import inspect
 import pymongo
 
-
-# Database setup
 from pymongo import MongoClient
 client = MongoClient()
 
 db = client['teams']
+
 teams_table = db['teams']
 
 
-# Teams dictionary
 teams = [
   { "team": "Carolina Hurricanes", "slug": "carolina-panthers", "abbr": "CAR", "location": "Carolina", "mascot": "Hurricanes", "conference": "Eastern", "division": "Metropolitan" },
   { "team": "Columbus Blue Jackets", "slug": "columbus-blue-jackets", "abbr": "CBJ", "location": "Columbus", "mascot": "Blue Jackets", "conference": "Eastern", "division": "Metropolitan" },
@@ -45,7 +43,8 @@ teams = [
   { "team": "Los Angeles Kings", "slug": "los-angeles-kings", "abbr": "L.A", "location": "Los Angeles", "mascot": "Kings", "conference": "Western", "division": "Pacific" },
   { "team": "Phoenix Coyotes", "slug": "phoenix-coyotes", "abbr": "PHX", "location": "Phoenix", "mascot": "Coyotes", "conference": "Western", "division": "Pacific" },
   { "team": "San Jose Sharks", "slug": "san-jose-sharks", "abbr": "S.J", "location": "San Jose", "mascot": "Sharks", "conference": "Western", "division": "Pacific" },
-  { "team": "Vancouver Canucks", "slug": "vancouver-canucks", "abbr": "VAN", "location": "Vancouver", "mascot": "Canucks", "conference": "Western", "division": "Pacific" }
+  { "team": "Vancouver Canucks", "slug": "vancouver-canucks", "abbr": "VAN", "location": "Vancouver", "mascot": "Canucks", "conference": "Western", "division": "Pacific" },
+  { "team": "Atlanta Thrashers", "slug": "atlanta-thrashers", "abbr": "ATL", "location": "Atlanta", "mascot": "Thrashers", "conference": "Easter", "division": "Southeast" }
 ]
 
 

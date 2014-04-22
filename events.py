@@ -1,46 +1,44 @@
-# TO DOs:
-    # where are the saves? are they the goalie stops?  (Shots on goal - goals), get which goalie is on the ice at the time and add/subtract from save %
-    # calculate the final score?
-    # what happens if both teams are away?
-    # put game number and away/home game number in teams/season table
-    # put goal/point tally in players table
-    # players need to have unique IDs
-    # TOI reports
-    # when to calculate corsi/fenwick stats
-    # check that EV, SH, and PP are the only strengths possible
-    # don't add blocked_by to shot events where it's N/A?
-    # seperate penalty minutes from penalty type (double (10 min)) in 20371 for 20132014
-
 # Events:
-    # HIT
-    # SOC = shootout complete
-    # PSTR = period start --
-    # STOP --
-    # PEND = period end --
-    # GEND = game end --
+  # HIT
+  # SOC = shootout complete
+  # PSTR = period start --
+  # STOP --
+  # PEND = period end --
+  # GEND = game end --
 
-    # FAC = faceoff *
-    # GOAL *
-    # TAKE *
-    # GIVE = giveaway *
-    # BLOCK *
-    # MISS *
-    # SHOT *
-    # PENL = penalty *
+  # FAC = faceoff *
+  # GOAL *
+  # TAKE *
+  # GIVE = giveaway *
+  # BLOCK *
+  # MISS *
+  # SHOT *
+  # PENL = penalty *
 
-    # -- Does not follow rules for 'team'
+  # -- Does not follow rules for 'team'
+
+
 
 from bs4 import BeautifulSoup, Tag
 import re
 import requests
 import itertools
 import inspect
-# import dataset
 import pymongo
+import logging
+
+
+logging.basicConfig(filename='playbyplay.log',level=logging.DEBUG)
+
 
 from strength import get_strength_transitions
 from game_rosters import get_game_rosters
 from util_getUrls import get_urls
+from util_getTotalTimeExpired import get_total_time_expired
+from util_replaceAll import replace_all
+from util_dbInsert import db_insert
+
+from events_getGameInfo import get_game_info
 
 
 from pymongo import MongoClient
@@ -48,92 +46,55 @@ client = MongoClient()
 
 db = client['games']
 games_table = db['games']
+# db.games.ensureIndex( { "season": 1, "gcode": 1 }, { unique: true, dropDups: true } )
 
 teamsdb = client['teams']
 teams_table = teamsdb['teams']
-# db.games.ensureIndex( { "season": 1, "gcode": 1 }, { unique: true, dropDups: true } )
 
-#games_table = db['games']
-#game_events_table = db['game_events']
+seasons = [20072008, 20082009, 20092010, 20102011, 20112012, 20122013, 20132014]
+game_codes = range(20001, 21230)
 
-base_url = "http://www.nhl.com/scores/htmlreports/"
-seasons = [20122013]
-#20022003,20032004,20042005,20052006,20062007,20072008,20082009,20092010,20102011,20112012,20122013,
-# game_codes = range(20001, 20721)
-game_codes = range(20025, 20026)
 games = []
 
-#Standard: 20371 [20132014]
-#Shoot out example: 20610 [20132014]
-#Overtime example: 20613 [20132014]
-#Playoffs example: 30171 [20122013]
-#Playoffs overtime example: 30213 [20112012]
-
-
 # Iterate over seasons and game codes, building base game document
-for i, s in enumerate(seasons):
-  for ind, gid in enumerate(game_codes):
-    game = { "season": s, "gcode": gid, "url": base_url + "{0}/PL0{1}.HTM".format(str(s), str(gid))}
+for i, season in enumerate(seasons):
+  for ind, game_code in enumerate(game_codes):
+    game = { "season": season, "gcode": game_code, "url": "http://www.nhl.com/scores/htmlreports/{0}/PL0{1}.HTM".format(str(season), str(game_code))}
     games.append(game)
 
 
 
-temp_game_rosters = {}
-
-def get_game_info(teams, info):
-  game_meta = { "date": info.findAll('tr')[3].find('td').text }
-  game_meta["score"] = []
-  game_meta["team_abbrs"] = {};
 
 
-  # SET PLAYOFFS DATA IF AVAILABLE
-  playoff_series = info.findAll('tr')[2].find('td')
-  if playoff_series.text and "Winter Classic" not in playoff_series.text:
-    game_meta["playoffs"] = { "series": playoff_series.text }
-  if playoff_series.text and "Winter Classic" in playoff_series.text:
-    game_meta["series"] = playoff_series.text
+def parse_player(team_player):
+  player = team_player[4:]
+  player_number = team_player[5:7].strip(' \t\n\r')
+  team = team_player[:3]
+  if team == game_data["team_abbrs"]["away_team"]:
+    for i, roster_spot in enumerate(temp_game_rosters["visitor_roster"]):
+      if player_number == roster_spot["number"]:
+        player = roster_spot
+  else:
+    for i, roster_spot in enumerate(temp_game_rosters["home_roster"]):
+      if player_number == roster_spot["number"]:
+        player = roster_spot
 
-  for t in teams:
-    team_name = teams[t].findAll('tr')[-1].find('td').text
-
-    # Montreal Canadien games have different formatting
-    # This standardizes our split
-    team_name = team_name.replace("Match/Game", "Game").split('Game')
-    game_meta[t] = team_name[0].title()
-    team_abbr = teams_table.find({ "team": game_meta[t] })
-    team_abbr = team_abbr[0]["abbr"]
-    game_meta["team_abbrs"][t] = team_abbr
-
-    game_meta["score"].append({"team": game_meta[t], "score": 0 })
-    if "playoffs" in game_meta:
-      # TO DO: should only need to do this once, not twice for both teams
-      game_meta["playoffs"]["game_number"] = team_name[1][1:2]
+  return { "team": team, "player": player}
 
 
-  temp_game_rosters.update(get_game_rosters(game_data["season"], game_data["gcode"], game_meta["away_team"], game_meta["home_team"]))
-
-  return game_meta
 
 
-def get_total_time_expired(period, time_expired):
-  game_clock = time_expired.split(':')
-  minutes = int(game_clock[0]) + ((period - 1) * 20)
-  seconds = int(game_clock[1])
-  total_time_expired = str(minutes).zfill(2) + ":" + str(seconds).zfill(2)
-  return total_time_expired
 
 
 def parse_event_info(event_type, details):
 
+
+  # SHOT ON GOAL: T.B ONGOAL - #19 CROMBEEN, Backhand, Off. Zone, 37 ft.
+  # MISS: T.B #8 BARBERIO, Slap, Wide of Net, Off. Zone, 52 ft.
+  # BLOCK: T.B #2 BREWER BLOCKED BY PHI #8 GROSSMANN, Slap, Def. Zone
   def shot(info):
-    #SHOT ON GOAL: T.B ONGOAL - #19 CROMBEEN, Backhand, Off. Zone, 37 ft.
-    #MISS: T.B #8 BARBERIO, Slap, Wide of Net, Off. Zone, 52 ft.
-    #BLOCK: T.B #2 BREWER BLOCKED BY PHI #8 GROSSMANN, Slap, Def. Zone
 
-
-    #team = info[:3]
     info = info.split(', ')
-    #player = info[0][4:]
     team_player = parse_player(info[0])
 
     blocked_by = None
@@ -150,9 +111,6 @@ def parse_event_info(event_type, details):
 
     return { "team": team_player["team"], "player" : team_player["player"], "blocked_by": blocked_by, "shot_type": shot_type, "shot_distance": shot_distance }
 
-  def possession(info):
-    info = info.split(', ')
-    return parse_player(info[0])
 
   def goal(info):
     if isinstance(info, basestring):
@@ -186,7 +144,11 @@ def parse_event_info(event_type, details):
 
     return { "team": team_player["team"], "player": team_player["player"], "shot_type": shot_type, "shot_distance": shot_distance, "assists": assists }
 
-  # TO DO: cleanup
+
+
+
+
+  # Original Format: CBJ #11 CALVERT Holding the stick(2 min), Neu. Zone Drawn By: DET #40 ZETTERBERG
   def penalty(info):
     split_patterns = [" ", "\\xa0"]
     join_pattern = "|".join(split_patterns)
@@ -199,14 +161,14 @@ def parse_event_info(event_type, details):
     player = info[:split_start]
     penalty = info[split_end:]
 
-    called_on = parse_player(player)
+    called_on = parse_player(player) # Parsing CBJ #11 CALVERT
     drawn_by = "N/A"
     if "Drawn By:" in penalty:
-      drawn_by = parse_player(penalty.split(': ')[1])
+      drawn_by = parse_player(penalty.split(': ')[1]) # Parsing DET #40 ZETTERBERG
 
 
     # Grab the name of the penalty & minutes
-    # Standard format is:  T.B #3 AULIE Roughing(2 min), Neu. Zone Drawn By: PHI #10 SCHENN
+    # Standard Format:  T.B #3 AULIE Roughing(2 min), Neu. Zone Drawn By: PHI #10 SCHENN
     penalty_type = penalty.split(',')[0] # => AULIE Roughing(2 min)
 
     # Sometimes there is no comma after the minutes. In this case, split at Drawn
@@ -216,21 +178,17 @@ def parse_event_info(event_type, details):
 
     return { "penalty": penalty_type, "called_on": called_on, "drawn_by": drawn_by, "team": called_on["team"] }
 
-  def parse_player(team_player):
-    player = team_player[4:]
-    player_number = team_player[5:7].strip(' \t\n\r')
-    team = team_player[:3]
-    if team == game_data["team_abbrs"]["away_team"]:
-      for i, roster_spot in enumerate(temp_game_rosters["visitor_roster"]):
-        if player_number == roster_spot["number"]:
-          player = roster_spot
-    else:
-      for i, roster_spot in enumerate(temp_game_rosters["home_roster"]):
-        if player_number == roster_spot["number"]:
-          player = roster_spot
 
-    return { "team": team, "player": player}
 
+
+  # Original Format: CBJ GIVEAWAY - #17 DUBINSKY, Def. Zone
+  # Parsed Format: CBJ #17 DUBINSKY, Def. Zone
+  def possession(info):
+    info = info.split(', ')
+    return parse_player(info[0])
+
+
+  # Original Format: CBJ #17 DUBINSKY HIT DET #23 LASHOFF, Def. Zone
   def hit(info):
     team = info[:3]
     info = info.split(' HIT ')
@@ -239,14 +197,16 @@ def parse_event_info(event_type, details):
     return { "team": team, "players": players }
 
 
-  # Standard Format: PHX won Def. Zone - CHI #19 TOEWS vs PHX #8 LOMBARDI
+  # Original Format: PHX won Def. Zone - CHI #19 TOEWS vs PHX #8 LOMBARDI
   def faceoff(info):
     team = info[:3]
     players = info.split('Zone - ')
     players = players[1].split(' vs ')
     players = [parse_player(players[0]), parse_player(players[1])]
-
     return { "team": team, "players": players }
+
+
+
 
 
 
@@ -261,12 +221,6 @@ def parse_event_info(event_type, details):
     "FAC" : faceoff,
     "HIT": hit
   }
-
-  def replace_all(string, dict):
-    for i, j in dict.iteritems():
-      string = string.replace(i, j)
-    return string
-
 
 
   event_info = {}
@@ -283,11 +237,8 @@ def parse_event_info(event_type, details):
   # if details.contents[0][:3] == 'NYR' or details.contents[0][:3] == 'WSH':
   #   event_info["team"] = details.contents[0][:3]
 
-  # Remap zone names
 
-
-
-
+  # Set the zone of the event if applicable
   zone = details.contents[0].find('Zone')
   if zone != -1:
     remapped_zones = {
@@ -296,11 +247,6 @@ def parse_event_info(event_type, details):
       "Def": "Defensive"
     }
     event_info["zone"] = remapped_zones[details.contents[0][zone-5:zone-2]]
-
-
-
-
-
 
 
   # Try parsing event info; otherwise just return the object
@@ -362,22 +308,36 @@ def get_game_events(events, regular_season):
         except KeyError:
           event_type = erd.text
 
+        # Set the event type and parse the event info
         event_detail["event_type"] = event_type
         event_detail.update(parse_event_info(event_type, event_description))
 
 
     game_events.append(event_detail)
-    #game_events_table.insert(event_detail)
   return game_events
 
 
 
+
+
 if __name__ == '__main__':
+
+  # Iterate over all of our games and start building up the metadata & events data
   for g in games:
     print g["url"]
     r = requests.get(g["url"])
 
-    game_data = { "season": g["season"], "gcode": g["gcode"] }
+    game_data = g
+
+    game_in_table = games_table.find({ "gcode": g["gcode"], "season": g["season"] })
+    try:
+      if game_in_table[0]:
+        print "Game in DB, continuing..."
+        continue
+    except IndexError:
+      print "Not in db..."
+      pass
+
 
     # If we can access the file, fill in the rest of the game data
     if r.status_code == 200:
@@ -386,22 +346,31 @@ if __name__ == '__main__':
       game_tables = []
       game_rows = []
 
+
       # Store all the tables from the page in game_tables
-      for item in body.contents:
-        if type(item) is Tag and item.name == 'table':
-          game_tables.append(item)
+      try:
+        for item in body.contents:
+          if type(item) is Tag and item.name == 'table':
+            game_tables.append(item)
+      except AttributeError:
+        logging.warning("Body returned as NoneType for " + g["url"])
+        continue
 
 
-
+      # Get additional game info (date, teams, etc.)
       teams = { "away_team": soup.find('table', { 'id': 'Visitor'}), "home_team": soup.find('table', { 'id': 'Home'}) }
       game_info = soup.find('table', { 'id': 'GameInfo' })
       game_data.update(get_game_info(teams, game_info))
+      temp_game_rosters = get_game_rosters(game_data)
+
+
 
       game_data["events"] = []
       if "playoffs" in game_data.keys():
         regular_season = False
       else:
         regular_season = True
+
 
       # Iterate over all game tables
       for i, gt in enumerate(game_tables):
@@ -416,12 +385,11 @@ if __name__ == '__main__':
 
       # print game_data
 
-      try:
-        games_table.insert(game_data)
-      except pymongo.errors.DuplicateKeyError:
-        print "Duplicate Key, Skipping for now"
-      except pymongo.errors.OperationFailure:
-        print "fail"
 
+      # Insert new games into database
+      db_insert(games_table, game_data)
+
+
+    # Catch URLs that could not be requested
     else:
       print "UNABLE TO REQUEST URL. STATUS CODE: " + str(r.status_code)

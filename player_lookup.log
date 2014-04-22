@@ -1,0 +1,2862 @@
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/PL020025.HTM HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/RO020025.HTM HTTP/1.1" 200 2796
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: ABDELKADER
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MCCOLLUM
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/PL020025.HTM HTTP/1.1" 200 56636
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/RO020025.HTM HTTP/1.1" 200 2796
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: ABDELKADER
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MCCOLLUM
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/PL020025.HTM HTTP/1.1" 200 56636
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/RO020025.HTM HTTP/1.1" 200 2796
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: ABDELKADER
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MCCOLLUM
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/PL020025.HTM HTTP/1.1" 200 56636
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/RO020025.HTM HTTP/1.1" 200 2796
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: ABDELKADER
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MCCOLLUM
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/PL020025.HTM HTTP/1.1" 200 56636
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/RO020025.HTM HTTP/1.1" 200 2796
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: ABDELKADER
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MCCOLLUM
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/PL020025.HTM HTTP/1.1" 200 56636
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/RO020025.HTM HTTP/1.1" 200 2796
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: ABDELKADER
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MCCOLLUM
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/PL020025.HTM HTTP/1.1" 200 56636
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/RO020025.HTM HTTP/1.1" 200 2796
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: ABDELKADER
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MCCOLLUM
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/PL020025.HTM HTTP/1.1" 200 56636
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/RO020025.HTM HTTP/1.1" 200 2796
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: ABDELKADER
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MCCOLLUM
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/PL020025.HTM HTTP/1.1" 200 56636
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/PL020025.HTM HTTP/1.1" 200 56636
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/PL020025.HTM HTTP/1.1" 200 56636
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/RO020025.HTM HTTP/1.1" 200 2796
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: ABDELKADER
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MCCOLLUM
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/PL020025.HTM HTTP/1.1" 200 56636
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/RO020025.HTM HTTP/1.1" 200 2796
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: ABDELKADER
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MCCOLLUM
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/PL020025.HTM HTTP/1.1" 200 56636
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/RO020025.HTM HTTP/1.1" 200 2796
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: ABDELKADER
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MCCOLLUM
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/PL020025.HTM HTTP/1.1" 200 56636
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/RO020025.HTM HTTP/1.1" 200 2796
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: ABDELKADER
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MCCOLLUM
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/PL020025.HTM HTTP/1.1" 200 56636
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/RO020025.HTM HTTP/1.1" 200 2796
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: ABDELKADER
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MCCOLLUM
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/PL020025.HTM HTTP/1.1" 200 56636
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/RO020025.HTM HTTP/1.1" 200 2796
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: ABDELKADER
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MCCOLLUM
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/PL020025.HTM HTTP/1.1" 200 56636
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/RO020025.HTM HTTP/1.1" 200 2796
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: ABDELKADER
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MCCOLLUM
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/PL020025.HTM HTTP/1.1" 200 56636
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/RO020025.HTM HTTP/1.1" 200 2796
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: ABDELKADER
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MCCOLLUM
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/PL020025.HTM HTTP/1.1" 200 56636
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20122013/RO020025.HTM HTTP/1.1" 200 2796
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: ABDELKADER
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MCCOLLUM
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20072008/PL020001.HTM HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20072008/RO020001.HTM HTTP/1.1" 200 2859
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: HNIDY
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MARCHANT
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MAY
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: DIPENTA
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: NIEDERMAYER
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MOWERS
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY FIRST AND LAST NAME: BRADY MURRAY
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: CALDER
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: FROLOV
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: PREISSING
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MODRY
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: NAGY
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: ZEILER
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20072008/PL020002.HTM HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20072008/RO020002.HTM HTTP/1.1" 200 2896
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY FIRST AND LAST NAME: BRADY MURRAY
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: CALDER
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: FROLOV
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY FIRST AND LAST NAME: SCOTT THORNTON
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: PREISSING
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MODRY
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: NAGY
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: ZEILER
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: HNIDY
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MARCHANT
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: DIPENTA
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: NIEDERMAYER
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MOWERS
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20072008/PL020003.HTM HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20072008/PL020001.HTM HTTP/1.1" 200 47303
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20072008/RO020001.HTM HTTP/1.1" 200 2859
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: HNIDY
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MARCHANT
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MAY
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: DIPENTA
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: NIEDERMAYER
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MOWERS
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY FIRST AND LAST NAME: BRADY MURRAY
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: CALDER
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: FROLOV
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: PREISSING
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MODRY
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: NAGY
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: ZEILER
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20072008/PL020002.HTM HTTP/1.1" 200 49845
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20072008/RO020002.HTM HTTP/1.1" 200 2896
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY FIRST AND LAST NAME: BRADY MURRAY
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: CALDER
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: FROLOV
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY FIRST AND LAST NAME: SCOTT THORNTON
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: PREISSING
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MODRY
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: NAGY
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: ZEILER
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: HNIDY
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MARCHANT
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: DIPENTA
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: NIEDERMAYER
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MOWERS
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20072008/PL020003.HTM HTTP/1.1" 200 63470
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20072008/PL020001.HTM HTTP/1.1" 200 47303
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20072008/RO020001.HTM HTTP/1.1" 200 2859
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: HNIDY
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MARCHANT
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MAY
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: DIPENTA
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: NIEDERMAYER
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MOWERS
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY FIRST AND LAST NAME: BRADY MURRAY
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: CALDER
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: FROLOV
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: PREISSING
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MODRY
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: NAGY
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: ZEILER
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20072008/PL020002.HTM HTTP/1.1" 200 49845
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20072008/RO020002.HTM HTTP/1.1" 200 2896
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY FIRST AND LAST NAME: BRADY MURRAY
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: CALDER
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: FROLOV
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY FIRST AND LAST NAME: SCOTT THORNTON
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: PREISSING
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MODRY
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: NAGY
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: ZEILER
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: HNIDY
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MARCHANT
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: DIPENTA
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: NIEDERMAYER
+INFO:root:
+
+WARNING:root:COULDNT FIND PLAYER BY LAST NAME: MOWERS
+INFO:root:
+
+INFO:root:Found player by FIRST & LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:root:
+
+INFO:root:Found player by LAST name.
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nhl.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /scores/htmlreports/20072008/PL020003.HTM HTTP/1.1" 200 63470
