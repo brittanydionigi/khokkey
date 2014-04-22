@@ -40,6 +40,8 @@ import pymongo
 
 from strength import get_strength_transitions
 from game_rosters import get_game_rosters
+from util_getUrls import get_urls
+
 
 from pymongo import MongoClient
 client = MongoClient()
@@ -51,16 +53,6 @@ teamsdb = client['teams']
 teams_table = teamsdb['teams']
 # db.games.ensureIndex( { "season": 1, "gcode": 1 }, { unique: true, dropDups: true } )
 
-
-#box648.bluehost.com
-#box796.bluehost.com
-#50.87.139.53
-#host all all 50.87.139.53 50.87.139.53 trust
-#host all all 69.195.126.101 69.195.126.101 trust
-#host all all 66.147.244.01 66.147.244.99 trust
-
-#db = dataset.connect('postgresql://shortsof_admin:Ny24CnE86a8He@50.87.139.53/shortsof_khokkey')
-#db = dataset.connect('mysql://shortsof_admin:Ny24CnE86a8He@box648.bluehost.com:3306/shortsof_khokkey')
 #games_table = db['games']
 #game_events_table = db['game_events']
 
@@ -78,10 +70,13 @@ games = []
 #Playoffs overtime example: 30213 [20112012]
 
 
+# Iterate over seasons and game codes, building base game document
 for i, s in enumerate(seasons):
   for ind, gid in enumerate(game_codes):
     game = { "season": s, "gcode": gid, "url": base_url + "{0}/PL0{1}.HTM".format(str(s), str(gid))}
     games.append(game)
+
+
 
 temp_game_rosters = {}
 
