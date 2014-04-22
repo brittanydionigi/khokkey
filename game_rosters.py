@@ -8,7 +8,7 @@ import logging
 
 
 
-logging.basicConfig(filename='player_lookup.log',level=logging.DEBUG)
+logging.basicConfig(format='%(levelname)s: %(message)s', filename='player_lookup.log',level=logging.DEBUG)
 
 from pymongo import MongoClient
 client = MongoClient()
@@ -21,17 +21,17 @@ players_table = db['players']
 def get_full_player_data(player, player_from_db, count):
   logging.info("\n")
   if count == 0:
-    logging.warning("COULDNT FIND PLAYER BY LAST NAME: " + player["last_name"])
+    # logging.warning("COULDNT FIND PLAYER BY LAST NAME: " + player["last_name"])
     return player
   if count == 1:
-    logging.info("Found player by LAST name.")
+    # logging.info("Found player by LAST name.")
     returned_player = player_from_db[0]
     player_full = { "number": player["number"], "nhl_id": returned_player["nhl_id"], "first_name": returned_player["first"], "last_name": returned_player["last"] }
     return player_full
   if count > 1:
     narrow_players_from_db = players_table.find({ "last_upper": player["last_name"], "first_upper": player["first_name"] })
     if narrow_players_from_db.count() == 0:
-      logging.warning("COULDNT FIND PLAYER BY FIRST AND LAST NAME: " + player["first_name"] + " " + player["last_name"])
+      # logging.warning("COULDNT FIND PLAYER BY FIRST AND LAST NAME: " + player["first_name"] + " " + player["last_name"])
       return player
     if narrow_players_from_db.count() == 1:
       logging.info("Found player by FIRST & LAST name.")
@@ -42,7 +42,7 @@ def get_full_player_data(player, player_from_db, count):
       logging.info("Multiple Results (" + str(narrow_players_from_db.count()) + "). Narrowing by FIRST, LAST & POSITION... ")
       first_last_position = players_table.find({ "last_upper": player["last_name"], "first_upper": player["first_name"], "position": player["position"] })
       if first_last_position.count() == 0:
-        logging.warning("COULDNT FIND PLAYER BY FIRST, LAST & POSITION: " + player["first_name"] + " " + player["last_name"] + " " + player["position"])
+        # logging.warning("COULDNT FIND PLAYER BY FIRST, LAST & POSITION: " + player["first_name"] + " " + player["last_name"] + " " + player["position"])
         return player
       if first_last_position.count() == 1:
         logging.info("Found player by FIRST, LAST & POSITION.")

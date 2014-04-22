@@ -27,8 +27,10 @@ import inspect
 import pymongo
 import logging
 
+requests_log = logging.getLogger("requests")
+requests_log.setLevel(logging.WARNING)
 
-logging.basicConfig(filename='playbyplay.log',level=logging.DEBUG)
+logging.basicConfig(format='%(levelname)s: %(message)s', filename='playbyplay.log',level=logging.DEBUG)
 
 
 from strength import get_strength_transitions
@@ -353,7 +355,7 @@ if __name__ == '__main__':
           if type(item) is Tag and item.name == 'table':
             game_tables.append(item)
       except AttributeError:
-        logging.warning("Body returned as NoneType for " + g["url"])
+        logging.error("Body returned as NoneType for " + g["url"])
         continue
 
 
