@@ -67,6 +67,14 @@ for i, season in enumerate(seasons):
 
 
 
+def get_players_on_ice(team, tdelem):
+  players_on_ice = []
+  player_elems = [el for el in tdelem.findAll('font') if el.text]
+  for playerindex, playername in enumerate(player_elems):
+    players_on_ice.append(playername['title'])
+
+  return players_on_ice
+
 
 def parse_player(team_player):
   player = team_player[4:]
@@ -265,7 +273,7 @@ def get_game_events(events, regular_season):
 
   for i, e in enumerate(events):
     event_detail = { "period": e["period"] }
-    event_row_data = e["event_row"].findAll('td')
+    event_row_data = e["event_row"].findAll('td', { "class": [" + bborder", " + bborder + rborder"] })
 
     for ind, erd in enumerate(event_row_data):
 
@@ -313,6 +321,17 @@ def get_game_events(events, regular_season):
         # Set the event type and parse the event info
         event_detail["event_type"] = event_type
         event_detail.update(parse_event_info(event_type, event_description))
+
+
+
+
+      # 6th & 7th TD Elements => players on ice
+      if ind == 6:
+        event_detail["away_players"] = get_players_on_ice("away", erd)
+
+      if ind == 7:
+        event_detail["home_players"] = get_players_on_ice("home", erd)
+
 
 
     game_events.append(event_detail)
