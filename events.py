@@ -381,6 +381,13 @@ if __name__ == '__main__':
       # Get additional game info (date, teams, etc.)
       teams = { "away_team": soup.find('table', { 'id': 'Visitor'}), "home_team": soup.find('table', { 'id': 'Home'}) }
       game_info = soup.find('table', { 'id': 'GameInfo' })
+
+      if game_info:
+        pass
+      else:
+        print "Page probably blank..."
+        continue
+
       game_data.update(get_game_info(teams, game_info))
       temp_game_rosters = get_game_rosters(game_data)
 
