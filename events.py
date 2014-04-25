@@ -19,7 +19,7 @@
 
 
 
-from bs4 import BeautifulSoup, Tag
+from BeautifulSoup import BeautifulSoup, Tag
 import re
 import requests
 import itertools
@@ -273,7 +273,7 @@ def get_game_events(events, regular_season):
 
   for i, e in enumerate(events):
     event_detail = { "period": e["period"] }
-    event_row_data = e["event_row"].findAll('td', { "class": [" + bborder", " + bborder + rborder"] })
+    event_row_data = e["event_row"].findAll('td', { "class": [" + bborder", " + bborder + rborder", "goal + bborder", "penalty + bborder", "bold + bborder + rborder", "bold + bborder", "italicize + bold + bborder + rborder", "italicize + bold + bborder"] })
 
     for ind, erd in enumerate(event_row_data):
 
