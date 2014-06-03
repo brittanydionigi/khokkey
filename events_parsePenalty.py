@@ -1,4 +1,3 @@
-# TO DO: cleanup
 def penalty(info):
   split_patterns = [" ", "\\xa0"]
   join_pattern = "|".join(split_patterns)
